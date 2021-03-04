@@ -416,7 +416,7 @@ li {
  フッター
 ---------------------------------*/
 .footer {
-  background-color: #1d1d1d;
+  background-color: gainsboro;
 }
 
 .footer .inner {
