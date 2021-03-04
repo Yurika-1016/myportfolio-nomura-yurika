@@ -112,6 +112,8 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
+  background-image: url(../img/flower.jpg);
+  background-size: cover;
 }
 
 .logo {
@@ -119,16 +121,18 @@ li {
   margin-bottom: 30px;
   padding: 0 20px;
   text-align: center;
+  color: white;
 }
 
 .logo-title {
-  font-family: "Open sans", sans-serif;
+  font-family: fantasy;
   font-size: 64px;
   line-height: 1;
-  letter-spacing: .2em;
+  letter-spacing: .1em;
 }
 
 .logo-subtitle {
+  font-family: fantasy;
   font-size: 20px;
   margin-top: 5px;
   text-align: center;
@@ -144,7 +148,7 @@ li {
   left: 0;
   z-index: 100;
   width: 100%;
-  background-color: #fff;
+  background-color: gainsboro;
   -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
